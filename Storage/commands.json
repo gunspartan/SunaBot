@@ -1,0 +1,26 @@
+{
+  "Help": {
+    "name": "Help",
+    "group": "User",
+    "desc" : "Displays a list of commands",
+    "usage": "help [group OR command]"
+  },
+  "Hook": {
+    "name": "Hook",
+    "group": "User",
+    "desc": "Returns a hook in the channel.",
+    "usage": "hook <title>, <description>, [color], [avatarURL]"
+  },
+  "Purge": {
+    "name": "Purge",
+    "group": "Moderator",
+    "desc": "Clears a specified amount of messages.",
+    "usage": "purge <number>"
+  },
+  "Ping": {
+    "name": "Ping",
+    "group": "Admin",
+    "desc": "Returns a pong back to the channel.",
+    "usage": "ping"
+  }
+}
